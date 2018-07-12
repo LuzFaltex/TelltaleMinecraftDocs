@@ -27,9 +27,15 @@
         "files": [ "articles/images/**"]
       }
     ],
+    "template": [
+      "default",
+      "_template/light-dark-theme",
+      "_template/last-modified",
+      "_template/description-generator"
+    ],
     "overwrite": "specs/*.md",
     "globalMetadata": {
-      "_appTitle": "docfx seed website",
+      "_appTitle": "Telltale Minecraft Docs",
       "_enableSearch": true
     },
     "markdownEngineName": "markdig",
