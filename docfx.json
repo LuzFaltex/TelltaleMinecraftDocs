@@ -14,12 +14,13 @@
   "build": {
     "content": [
       {
-        "files": [ "**/*.yml" ],
-        "src": "obj/api",
-        "dest": "api"
+        "files": ["guides/**.md"]
       },
       {
-        "files": [ "articles/**/*.md", "*.md", "toc.yml", "restapi/**" ]
+        "files": ["plugins/**.md"]
+      },
+      {
+        "files": [ "*.md", "toc.yml" ]
       }
     ],
     "resource": [
