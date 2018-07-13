@@ -14,7 +14,7 @@ before_build:
             # choco install nuget.commandline -y
         }
 build_script:
-  - msbuild src/SampleClass1/SampleClass1.sln
+  # - msbuild src/SampleClass1/SampleClass1.sln
 
 after_build:
   - ps: |
