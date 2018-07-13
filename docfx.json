@@ -40,7 +40,7 @@
       "_enableSearch": true
     },
     "markdownEngineName": "markdig",
-    "dest": "docs",
+    "dest": "_site",
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
 }
