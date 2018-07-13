@@ -19,7 +19,7 @@
         "dest": "api"
       },
       {
-        "files": [ "articles/**/*.md", "*.md", "toc.yml", "restapi/**" ]
+        "files": ["guides/**.md", "*.md", "toc.yml", "faq/**"]
       }
     ],
     "resource": [
@@ -36,6 +36,7 @@
     "overwrite": "specs/*.md",
     "globalMetadata": {
       "_appTitle": "Telltale Minecraft Docs",
+      "_appFooter": "Server owned by Telltale Atheist // Additional support provided by LuzFaltex",
       "_enableSearch": true
     },
     "markdownEngineName": "markdig",
