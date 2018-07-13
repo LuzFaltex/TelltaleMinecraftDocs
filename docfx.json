@@ -14,13 +14,12 @@
   "build": {
     "content": [
       {
-        "files": ["guides/**.md"]
+        "files": [ "**/*.yml" ],
+        "src": "obj/api",
+        "dest": "api"
       },
       {
-        "files": ["plugins/**.md"]
-      },
-      {
-        "files": [ "*.md", "toc.yml" ]
+        "files": ["guides/**.md", "*.md", "toc.yml", "faq/**"]
       }
     ],
     "resource": [
@@ -37,10 +36,11 @@
     "overwrite": "specs/*.md",
     "globalMetadata": {
       "_appTitle": "Telltale Minecraft Docs",
+      "_appFooter": "Server owned by Telltale Atheist // Additional support provided by LuzFaltex",
       "_enableSearch": true
     },
     "markdownEngineName": "markdig",
-    "dest": "_site",
+    "dest": "docs",
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
 }
